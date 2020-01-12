@@ -1,0 +1,139 @@
+/* Global 
+---------------------------- */
+
+/* Reset to Border Box */
+html { box-sizing: border-box; }
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: darkslategrey;
+	margin: 0;
+	font-family: Candara;
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+	
+}
+
+.col-wide {
+	width: 70%;
+	float: left;
+}
+
+
+
+/* Header 
+---------------------------- */
+
+header {
+	max-width: 1350px;
+	margin: 0 auto ;
+	background: lightyellow;
+	overflow: auto;
+}
+
+.profile_image {
+	border-radius: 50%;
+	padding: 50px;
+}
+
+.nameplate {
+	font-size: 35px;
+	margin-top: 100px;
+	color: darkSlateGray;
+}
+
+.introduction {
+	font-size: 18px;
+	line-height: 1.5em;
+	color: dimgrey;
+}
+
+
+
+/* Main
+---------------------------- */
+
+main {
+	max-width: 1350px;
+	margin: 0 auto;
+	color: MediumSeaGreen;
+	background: lightgreen;
+	padding: 85px 0 120px;
+}
+
+main h1 {
+	margin: 0 0 45px 85px;
+	color: darkslategrey;
+}
+
+section {
+	overflow: hidden;
+	color: #358665;
+}
+
+section .col-narrow {
+	text-align: center;
+	border-right: 3px solid palegreen;
+}
+
+section .col-narrow h2, h3 {
+	margin: 12px 0;
+}
+
+section .col-narrow p {
+	margin: 0;
+}
+
+section .col-wide {
+	min-height: 107px;	/* If the left side content is smaller than the right side content in height */
+	padding-left: 50px;
+}
+
+section .col-wide p{
+	line-height: 1.5em;
+}
+
+.first-section {
+	margin-bottom: 80px;
+}
+
+
+
+/* Footer 
+---------------------------- */
+
+footer {
+	text-align: center;
+	background: cadetblue;
+	max-width: 1350px;
+	margin: 0 auto;
+	padding: 15px 0 15px;
+}
+
+.footer-header {
+	color: darkslategrey;
+	margin: 25px 0 25px;
+}
+  
+.contact-info a{
+	padding: 10px;
+	color: lemonchiffon;
+	display: inline-block;  /* To prevent overlapping */
+	text-decoration: none;
+}
+
+.contact-info a:hover {
+	text-decoration: underline;
+}
+
+footer p {
+	margin: 0;
+	font-family: Calibri;
+	color: darkslategrey;
+	margin: 5px 0 0;
+}
