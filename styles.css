@@ -29,7 +29,26 @@ body {
 /* Header 
 ---------------------------- */
 
+nav {
+	background: brown;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Calibri;
+	display: inline-block;
+	color: lightyellow;
+	padding: 15px 15px;
+}
+
 header {
+	padding-top: 20px;
 	max-width: 1350px;
 	margin: 0 auto ;
 	background: lightyellow;
